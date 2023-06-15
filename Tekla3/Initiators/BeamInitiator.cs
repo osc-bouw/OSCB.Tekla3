@@ -14,7 +14,17 @@ namespace OSCB.Tekla3.Initiators
         protected Beam beamPart;
 
 
-        public Segment3 Segment { get; set; } = new Segment3();
+        public Segment3 Segment
+        {
+            get { return new Segment3(StartPoint, EndPoint); }
+            set
+            {
+                StartPoint = value.NegativeEnd;
+                EndPoint = value.PositiveEnd;
+            }
+
+
+        }
 
         public Vector3 StartPoint { get; set; } = new Vector3(0, 0, 0);
 
@@ -184,6 +194,11 @@ namespace OSCB.Tekla3.Initiators
         {
             if (beamPart != null)
             {
+                if (StartPoint.ToPoint() != EndPoint.ToPoint())
+                {
+                    beamPart.StartPoint = StartPoint.ToPoint();
+                    beamPart.EndPoint = EndPoint.ToPoint();
+                }
                 return beamPart.Modify();
             }
 
