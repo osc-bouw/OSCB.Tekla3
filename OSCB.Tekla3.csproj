@@ -32,10 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Fusion">
-      <HintPath>C:\Users\gvln\Downloads\2020\Fusion.dll</HintPath>
+
     </Reference>
     <Reference Include="Model.Common">
-      <HintPath>C:\Users\gvln\Downloads\2020\Model.Common.dll</HintPath>
+
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -51,74 +51,73 @@
     <Reference Include="System.Xml" />
     <Reference Include="Tekla.Application.Library, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Application.Library.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.BIM.Contracts">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.BIM.Contracts.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.BIM.DirectManipulation">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.BIM.DirectManipulation.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.BIM.Geometry">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.BIM.Geometry.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.BIM.Toolkit">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.BIM.Toolkit.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.BIM.Utilities">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.BIM.Utilities.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Common.Geometry, Version=4.6.0.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Common.Geometry.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Common.Geometry.Primitives, Version=4.5.0.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Common.Geometry.Primitives.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures.Analysis, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Analysis.dll</HintPath>
+   
     </Reference>
     <Reference Include="Tekla.Structures.Catalogs, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Catalogs.dll</HintPath>
+    
     </Reference>
     <Reference Include="Tekla.Structures.CustomPropertyPlugin">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.CustomPropertyPlugin.dll</HintPath>
+ 
     </Reference>
     <Reference Include="Tekla.Structures.Datatype, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Datatype.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures.Dialog, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Dialog.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures.DirectManipulation">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.DirectManipulation.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures.Drawing, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Drawing.dll</HintPath>
+   
     </Reference>
     <Reference Include="Tekla.Structures.Geometry3d.Compatibility">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Geometry3d.Compatibility.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures.Model, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Model.dll</HintPath>
+
     </Reference>
     <Reference Include="Tekla.Structures.Plugins, Version=2022.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Plugins.dll</HintPath>
     </Reference>
     <Reference Include="Tekla.Structures.Ui.WpfKit">
-      <HintPath>C:\Users\gvln\Downloads\2020\Tekla.Structures.Ui.WpfKit.dll</HintPath>
+
     </Reference>
   </ItemGroup>
   <ItemGroup>
