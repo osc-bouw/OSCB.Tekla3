@@ -23,17 +23,24 @@ namespace OSCB.Tekla3.Geometry
             while (enumerator.MoveNext())
             {
                 Face current = enumerator.Current;
-                if (current != null && !current.Normal.GetLength().ZeroLength())
+                if (current == null)
                 {
-                    Face3 face = current.ToFace3();
-                    if (face != null)
-                    {
-                        if (face.Normal.ToVector() == UnitVector3.UnitZ.ToVector())
-                        {
-                            yield return face;
-                        }
-
-                    }
+                    continue;
+                }
+                if (current.Normal.GetLength().ZeroLength())
+                {
+                    continue;
+                }
+                
+                Face3 face = current.ToFace3();
+                if (face == null)
+                {
+                    continue;
+                }
+                
+                if (face.Normal.ToVector() == UnitVector3.UnitZ.ToVector())
+                {
+                    yield return face;
                 }
             }
         }
